@@ -1,0 +1,105 @@
+/* imponting from google front  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+/*Page Rset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*style the header  */
+header{
+    background-image:  radial-gradient(circle, transparent, black),
+    url(./assests/header-bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 5%;
+}
+
+/* style logo img */
+nav #logo img{
+    width: 150px;
+}
+
+nav button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #e50914;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+/*style the header content  */
+header .content{
+    padding: 0px 30px;
+    margin: auto;
+    text-align: center;
+}
+
+header .content form button img{
+    width: 24px;
+    position: relative;
+    top: 10px;
+}
+
+header .content h1{
+    font-size: 3.125rem;
+
+}
+
+header .content p{
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+header .content span{
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 670px;
+}
+
+header .content input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+header .content button{
+    background-color: #e50914;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    
+}
+
+header .content form{
+    display: flex;
+    width: 100%;
+    max-width: 670px;
+    height: 60px;
+}
